@@ -8,7 +8,7 @@ Submitted by:
 - **Shane Douglas**
 - **Eugene Senanu**
 - **Liang Liu**
-- **etc**
+
 
 Time spent: **X** hours spent in total
 
