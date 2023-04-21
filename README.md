@@ -2,7 +2,7 @@
 Pet Tinder App 
 <!-- (This is a comment) INSTRUCTIONS: Go through this page and fill out any **bolded** entries with their correct values.-->
 
-# AND101 Milestone 1 - **Team/App Name**
+# AND101 Milestone 1 - **PetTinder by SpedRutz**
 
 Submitted by:
 - **Shane Douglas**
