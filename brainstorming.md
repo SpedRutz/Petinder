@@ -157,4 +157,4 @@ Mobile App Dev - App Brainstorming For Milestone 1
 
 ## Final Decision
 
-- **Our Final app descison is:** Pet Finder App. This app will be called "PeTinder" and will utilize the PetFinder API for users to search for pets avaible for adoption in the sreas they have selected. There will also be features where logged in users can chat and talk with each for potentially new pet adoptions!
+- **Our Final app descison is:** Pet Finder App. This app will be called "PeTinder" and will utilize the PetFinder API for users to search for pets avaible for adoption in the areas they have selected. There will also be features where logged in users can chat and talk with each for potentially new pet adoptions!
