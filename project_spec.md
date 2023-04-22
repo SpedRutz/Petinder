@@ -79,7 +79,7 @@ Required Features
     - **Users can chat with each other**
     - **The design will be similar to a text-message**
 
-## Hand-Drawn Wireframes
+## Wireframes
 <img src="https://i.imgur.com/UMaNR4i.png" width=600>
 
 ## Digital Wireframes
