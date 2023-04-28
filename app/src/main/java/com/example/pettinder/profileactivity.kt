@@ -1,4 +1,3 @@
-package com.example.pettinder
 
 import android.content.Intent
 import android.net.Uri
@@ -102,3 +101,4 @@ class profileactivity : AppCompatActivity() {
             }
     }
 }
+
