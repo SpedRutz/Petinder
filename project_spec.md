@@ -102,7 +102,6 @@ Required Features
 
 
 
-
 ## Build Notes
 
 In the Login Activity, the sign-up button will change to "log in"  if the user already has an account 
