@@ -86,7 +86,7 @@ The following REQUIRED files are included:
   
 ## The App
  ### Login Activty
- ![Alt Text](loginactivity.gif)
+ ![Alt Text](loginactivty.gif)
  
  ### Pet Finder Activity
  ![Alt Text](petinderview.gif)
