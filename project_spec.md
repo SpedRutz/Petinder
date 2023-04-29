@@ -108,6 +108,14 @@ Required Features
 In the Login Activity, the sign-up button will change to "log in"  if the user already has an account 
 
 For Milestone 2, include **2+ GIFs** of the build process here!
+# MileStone 2 
+
+## Build Progress 🦾 
+### Pet Finding Activty
+
+
+### Profile Activity
+
 
 ## License
 
