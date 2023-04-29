@@ -111,10 +111,10 @@ For Milestone 2, include **2+ GIFs** of the build process here!
 
 ## Build Progress 🦾 
 ### Pet Finding Activty
-
+![Alt Text](recycler.gif)
 
 ### Profile Activity
-
+![Alt Text](profile.gif)
 
 ## License
 
