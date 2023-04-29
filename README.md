@@ -82,6 +82,17 @@ The following REQUIRED files are included:
   - [X] App Spec (Milestone 1)
   - [x] Checked off 2+ completed features
   - [x] 2+ GIFs of build progress
+  
+  
+## The App
+ ### Login Activty
+ ![Alt Text](loginactivity.gif)
+ 
+ ### Pet Finder Activity
+ ![Alt Text](petinderactivity.gif)
+ 
+ ### Profile Activty
+ ![Alt Text](profileactivity.gif)
 
 - [x] Our 🎥 Demo Video
   - [x] We have also added the Demo Video Link to the Group Info Form on the course portal.
