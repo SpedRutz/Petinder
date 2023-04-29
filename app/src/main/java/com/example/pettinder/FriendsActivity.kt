@@ -1,10 +1,12 @@
 package com.example.pettinder
 
+
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+
 
 class FriendsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,7 +24,7 @@ class FriendsActivity : AppCompatActivity() {
         return when (item.itemId) {
             R.id.profile_menu_item -> {
                 // Navigate to ProfileActivity when the menu item is clicked
-                val intent = Intent(this, profileactivity::class.java)
+                val intent = Intent(this, ProfileActivity::class.java)
                 startActivity(intent)
                 true
             }
