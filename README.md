@@ -73,6 +73,7 @@ The following REQUIRED features are completed:
 
 - [x] Assign features to each member of your group
 - [x] Establish a goal time for completing each feature
+- Note: Both of these are in the project Spec
 
 The following REQUIRED files are included:
 
