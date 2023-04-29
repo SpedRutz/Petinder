@@ -1,3 +1,5 @@
+package com.example.pettinder
+
 
 import android.content.Intent
 import android.net.Uri
@@ -7,18 +9,29 @@ import android.util.Log
 import android.view.View
 import android.widget.*
 import androidx.activity.result.contract.ActivityResultContracts
+import com.example.pettinder.MainActivity
+import com.example.pettinder.R
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.storage.FirebaseStorage
 import java.util.UUID
 
-class profileactivity : AppCompatActivity() {
+class ProfileActivity : AppCompatActivity() {
 
 
     var imageuri: Uri? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_profileactivity)
+
+        //Button to go back to the petfinderactivity
+
+        val backbutton = findViewById<Button>(R.id.backbtn)
+        backbutton.setOnClickListener{view ->
+            val intent = Intent(this, PetfindingActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
 
 
 
@@ -30,7 +43,7 @@ class profileactivity : AppCompatActivity() {
         Logout.setOnClickListener { view ->
             FirebaseAuth.getInstance().signOut()
 
-            val intent = Intent(this,MainActivity::class.java)
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
             finish()
         }
@@ -59,7 +72,7 @@ class profileactivity : AppCompatActivity() {
             if (imageuri != null){
                 uploadimage()
             } else {
-                Toast.makeText(this@profileactivity," Please select an Image", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this@ProfileActivity," Please select an Image", Toast.LENGTH_SHORT).show()
             }
         }
 
@@ -90,7 +103,7 @@ class profileactivity : AppCompatActivity() {
 
             //Image was successfully uploaded
             progressBar.visibility =View.INVISIBLE
-            Toast.makeText(this@profileactivity," Image uploaded sucessfully", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this@ProfileActivity," Image uploaded sucessfully", Toast.LENGTH_SHORT).show()
 
         }// Adds a on failure listener incase image fails to upload
 

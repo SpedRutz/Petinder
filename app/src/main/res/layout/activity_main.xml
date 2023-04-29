@@ -6,11 +6,24 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="411dp"
+        android:layout_height="141dp"
+        android:src="@drawable/betpetin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
     <EditText
         android:id="@+id/Username"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:hint="Username"
+        android:textSize="30dp"
+        android:paddingStart="16dp"
+        android:background="@drawable/edittextbackgrounds"
         app:layout_constraintVertical_bias="0.3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,31 +35,36 @@
         android:id="@+id/Email"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:hint="Email"
         android:layout_marginTop="24dp"
+        android:textSize="30dp"
+        android:background="@drawable/edittextbackgrounds"
+        android:hint="Email"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/Username"
-        />
+        app:layout_constraintTop_toBottomOf="@id/Username" />
 
     <EditText
         android:id="@+id/Password"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:hint="Password"
+        android:background="@drawable/edittextbackgrounds"
         android:layout_marginTop="24dp"
+        android:textSize="30dp"
         app:layout_constraintEnd_toEndOf="@+id/Email"
         app:layout_constraintStart_toStartOf="@+id/Email"
         app:layout_constraintTop_toBottomOf="@id/Email"
         />
 
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/submit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Submit"
         android:layout_marginTop="24dp"
+        android:background="@drawable/button_shapes"
         app:layout_constraintEnd_toEndOf="@+id/Password"
         app:layout_constraintStart_toStartOf="@id/Password"
         app:layout_constraintTop_toBottomOf="@id/Password"

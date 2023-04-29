@@ -2,6 +2,7 @@ package com.example.pettinder
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
@@ -9,6 +10,9 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
+import com.codepath.asynchttpclient.AsyncHttpClient
+import com.codepath.asynchttpclient.RequestParams
+import com.codepath.asynchttpclient.callback.JsonHttpResponseHandler
 import com.google.android.gms.tasks.OnCompleteListener
 import com.google.android.gms.tasks.Task
 import com.google.firebase.auth.AuthResult
@@ -68,7 +72,7 @@ class MainActivity : AppCompatActivity() {
                             FirebaseDatabase.getInstance().getReference("user/").child(uid).setValue(userProfile)
 
                             Toast.makeText(this@MainActivity, "Sign-up complete", Toast.LENGTH_SHORT).show()
-                            val intent = Intent(this,FriendsActivity::class.java)
+                            val intent = Intent(this,PetfindingActivity::class.java)
                             startActivity(intent)
                         } else {
                             Toast.makeText(this@MainActivity, "Signup failed", Toast.LENGTH_SHORT)
@@ -92,7 +96,7 @@ class MainActivity : AppCompatActivity() {
 
                         Toast.makeText(this@MainActivity, "Login Success", Toast.LENGTH_SHORT)
                             .show()
-                        val intent = Intent(this,FriendsActivity::class.java)
+                        val intent = Intent(this,PetfindingActivity::class.java)
                         startActivity(intent)
                     } else {
                         Toast.makeText(this@MainActivity, "Login failed", Toast.LENGTH_SHORT).show()
@@ -134,5 +138,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
+
+
 
 }
