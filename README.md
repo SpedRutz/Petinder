@@ -92,7 +92,7 @@ The following REQUIRED files are included:
  ![Alt Text](petinderview.gif)
  
  ### Profile Activty
- ![Alt Text](profileactivity.gif)
+ ![Alt Text](profileactivty.gif)
 
 - [x] Our 🎥 Demo Video
   - [x] We have also added the Demo Video Link to the Group Info Form on the course portal.
