@@ -94,11 +94,11 @@ The following REQUIRED files are included:
  ### Profile Activty
  ![Alt Text](profileactivty.gif)
  
- ###Friends Activity
+ ### Friends Activity
  ![Alt Text](petinderview.gif)
  
-  ###Chatting Activity
-  ![Alt Text](petinderview.gif)
+ ### Chatting Activity
+  ![Alt Text](chattingactivity.gif)
 
 - [x] Our 🎥 Demo Video
   - [x] We have also added the Demo Video Link to the Group Info Form on the course portal.
