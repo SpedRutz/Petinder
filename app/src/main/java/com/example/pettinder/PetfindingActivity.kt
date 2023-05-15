@@ -103,6 +103,7 @@ class PetfindingActivity : AppCompatActivity() {
                                     val location = "$city, $state"
                                     val description = petJsonObject.optString("description", "No description available")
 
+
                                     val petPhotosJsonArray = petJsonObject.getJSONArray("photos")
 
                                     var petImageUrl: String? = null
@@ -118,7 +119,7 @@ class PetfindingActivity : AppCompatActivity() {
                                     petImageUrls.add(petImageUrl ?: "")
                                     petGenders.add(gender)
                                     petLocations.add(location)
-                                    if (description.isNullOrEmpty()) {
+                                    if (description.isNullOrEmpty() || description == "null") {
                                         petDescriptions.add("No description available")
                                     } else {
                                         petDescriptions.add(description)
@@ -177,6 +178,14 @@ class PetfindingActivity : AppCompatActivity() {
             R.id.profile_menu_item -> {
                 // Navigate to ProfileActivity when the menu item is clicked
                 val intent = Intent(this, ProfileActivity::class.java)
+                startActivity(intent)
+                true
+            }
+
+
+            R.id.friends_menu -> {
+                //Navigate to the Friendsactivty when the menu item is clicked
+                val intent = Intent(this, FriendsActivity::class.java)
                 startActivity(intent)
                 true
             }

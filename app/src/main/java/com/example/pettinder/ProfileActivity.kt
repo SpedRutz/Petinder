@@ -9,10 +9,14 @@ import android.util.Log
 import android.view.View
 import android.widget.*
 import androidx.activity.result.contract.ActivityResultContracts
+import com.bumptech.glide.Glide
 import com.example.pettinder.MainActivity
 import com.example.pettinder.R
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.database.DataSnapshot
+import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
+import com.google.firebase.database.ValueEventListener
 import com.google.firebase.storage.FirebaseStorage
 import java.util.UUID
 
@@ -28,8 +32,6 @@ class ProfileActivity : AppCompatActivity() {
 
         val backbutton = findViewById<Button>(R.id.backbtn)
         backbutton.setOnClickListener{view ->
-            val intent = Intent(this, PetfindingActivity::class.java)
-            startActivity(intent)
             finish()
         }
 
@@ -76,6 +78,30 @@ class ProfileActivity : AppCompatActivity() {
             }
         }
 
+
+        //Allows us to save the image even if we leave the activty
+        val profilepicturereference = FirebaseDatabase.getInstance().getReference("user" + FirebaseAuth.getInstance().uid + "/profilePicture")
+
+
+
+            profilepicturereference.addValueEventListener(object: ValueEventListener {
+                override fun onDataChange(snapshot: DataSnapshot) {
+                    val imageUrl = snapshot.getValue(String::class.java)
+
+                    if (imageUrl != null){
+                        Glide.with(this@ProfileActivity)
+                            .load(imageUrl)
+                            .into(ProfilePicture)
+                    }
+
+                }
+
+                override fun onCancelled(error: DatabaseError) {
+                    Log.d("Profile Picture error", "could not retrieve the profile image: $error")
+                }
+
+
+            })
 
 
     }
