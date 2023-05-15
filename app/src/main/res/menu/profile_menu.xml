@@ -4,4 +4,11 @@
     <!-- Puts the the account in the action bar to go to the user profile activity-->
     <item android:id="@+id/profile_menu_item" android:icon="@drawable/account_circle" app:showAsAction="always"
         android:title="TODO" />
+
+    <item android:id="@+id/friends_menu" android:icon="@drawable/baseline_people_24" app:showAsAction="always"
+        android:title="TODO" />
+
+    <item android:id ="@+id/pet_menu" android:icon="@drawable/pet_paw_image" app:showAsAction="always"
+        android:title="TODO" />
+
 </menu>
