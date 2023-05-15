@@ -89,7 +89,7 @@ The following REQUIRED files are included:
  ![Alt Text](loginactivty.gif)
  
  ### Pet Finder Activity
- ![Alt Text](petinderview.gif)
+ ![Alt Text](petfindingactivty.gif)
  
  ### Profile Activty
  ![Alt Text](profileactivty.gif)
