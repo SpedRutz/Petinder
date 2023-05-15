@@ -120,4 +120,4 @@ VIDEO created with Loom
 
 ## Notes
 
-Finished the Chatting Activty. Will Coontinue to update the App in the future
+Finished the Chatting Activty. Will Continue to update the App in the future
