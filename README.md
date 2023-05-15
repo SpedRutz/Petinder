@@ -14,9 +14,9 @@ Time spent: **40** hours spent in total
 
 ## Summary
 
-This document provides an overview, project spec, and wireframes for our team's capstone project: An app that **short description of your app**
+This document provides an overview, project spec, and wireframes for our team's capstone project: An app that **Finds adoptable pets in your local area and allows for you to chat with other users**
 
-If we had to describe this milestone in three (3) emojis, they would be: **emojis here**
+If we had to describe this milestone in three (3) emojis, they would be: **:scream_cat:,:raised_hands:,:satisfied:**
 
 ## Milestone Requirements
 
@@ -93,6 +93,12 @@ The following REQUIRED files are included:
  
  ### Profile Activty
  ![Alt Text](profileactivty.gif)
+ 
+ ###Friends Activity
+ ![Alt Text](petinderview.gif)
+ 
+  ###Chatting Activity
+  ![Alt Text](petinderview.gif)
 
 - [x] Our 🎥 Demo Video
   - [x] We have also added the Demo Video Link to the Group Info Form on the course portal.
