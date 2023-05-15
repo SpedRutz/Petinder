@@ -95,7 +95,7 @@ The following REQUIRED files are included:
  ![Alt Text](profileactivty.gif)
  
  ### Friends Activity
- ![Alt Text](petinderview.gif)
+ ![Alt Text](friendsactivity.gif)
  
  ### Chatting Activity
   ![Alt Text](chattingactivity.gif)
