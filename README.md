@@ -10,7 +10,7 @@ Submitted by:
 - **Liang Liu**
 
 
-Time spent: **20** hours spent in total
+Time spent: **40** hours spent in total
 
 ## Summary
 
