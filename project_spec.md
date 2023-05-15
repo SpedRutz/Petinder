@@ -102,16 +102,34 @@ Required Features
 
 
 
-
 ## Build Notes
 
 In the Login Activity, the sign-up button will change to "log in"  if the user already has an account 
 
 For Milestone 2, include **2+ GIFs** of the build process here!
+# MileStone 2 
+
+### Responsibility
+ **Shane**
+  - Made login Activity,Profile Activty
+
+
+ **Eugene**
+ - Made the Petfinding Activty
+
+**Liang**
+ - Made the Petfinding Activity, Chatting Actvity 
+
+## Build Progress 🦾 
+### Pet Finding Activty
+![Alt Text](recycler.gif)
+
+### Profile Activity
+![Alt Text](Profile.gif)
 
 ## License
 
-Copyright **2023** **Shane Douglas**, **Liang Liu** , **Eugene Senanu** , **Ahmed Mustapha** , **Mohammad Alam**
+Copyright **2023** **Shane Douglas**, **Liang Liu** , **Eugene Senanu** 
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

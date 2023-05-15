@@ -50,3 +50,68 @@ The following EXTRA features are implemented:
 ## Notes
 
 Scehduled to be updated
+# AND101 Milestone 2 - **SpedRutz: Team 24**
+
+Submitted by:
+- **Shane Douglas**
+- **Liang Liu**
+- **Eugune Senanu**
+
+Time spent: **40** hours spent in total
+
+## Summary
+
+ **PeTinder**
+ 
+ Application that utilizes the Pet Finder API to return a list of adoptable pets based on a given zip code. The app also utilhe built in firebase database for authentication, database, and storage.
+
+## Milestone Requirements
+
+<!-- Please be sure to change the [ ] to [x] for any features you completed.  If a feature is not checked [x], you might miss the points for that item! -->
+
+The following REQUIRED features are completed:
+
+- [x] Assign features to each member of your group
+- [x] Establish a goal time for completing each feature
+- Note: Both of these are in the project Spec
+
+The following REQUIRED files are included:
+
+- [x] Updated 📄 `project_spec.md`, which contains:
+  - [X] App Overview (Milestone 1)
+  - [X] App Spec (Milestone 1)
+  - [x] Checked off 2+ completed features
+  - [x] 2+ GIFs of build progress
+  
+  
+## The App
+ ### Login Activty
+ ![Alt Text](loginactivty.gif)
+ 
+ ### Pet Finder Activity
+ ![Alt Text](petinderview.gif)
+ 
+ ### Profile Activty
+ ![Alt Text](profileactivty.gif)
+
+- [x] Our 🎥 Demo Video
+  - [x] We have also added the Demo Video Link to the Group Info Form on the course portal.
+
+The following EXTRA features are implemented:
+
+- [x] List anything else that you added to improve your submission!
+- [x] Added a user profile activity
+- [x] added a login activty
+- [x] Several User activities
+
+## 🎥 Demo Video
+
+Here's a video that demos all of the app's implemented features:
+
+[![YouTube Video](https://img.youtube.com/vi/uY_FdX3INf0/0.jpg)](https://www.youtube.com/watch?v=uY_FdX3INf0)
+
+VIDEO created with Loom
+
+## Notes
+
+App Came a long way. Will add a chatting feature for the final submisssion
