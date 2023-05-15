@@ -63,7 +63,7 @@ Time spent: **40** hours spent in total
 
  **PeTinder**
  
- Application that utilizes the Pet Finder API to return a list of adoptable pets based on a given zip code. The app also utilhe built in firebase database for authentication, database, and storage.
+ Application that utilizes the Pet Finder API to return a list of adoptable pets based on a given zip code. The app also utilizes Firebase for authentication, database, and storage.
 
 ## Milestone Requirements
 
