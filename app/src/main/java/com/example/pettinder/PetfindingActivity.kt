@@ -24,7 +24,7 @@ class PetfindingActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_petfinding)
 
-        Log.d("Testing bro", "this activity works dog")
+        Log.d("Testing bro", "this activity works")
         //Will be used in the fetchdata function
         val petNames = mutableListOf<String>()
         val petAges = mutableListOf<String>()
@@ -37,8 +37,8 @@ class PetfindingActivity : AppCompatActivity() {
         fun fetchPetData(zipCode: String) {
             val url = "https://api.petfinder.com/v2/oauth2/token"
             val client = OkHttpClient()
-            val apiKey = "lbKxLWq9bW0kOjhS7of8lQFhlSQhD9sNLnwR068tWRUC415ez9"
-            val apiSecret = "JYAdq5WuhMEP583e9NKc7WZ2euGOuREk1dmL8yWp"
+            val apiKey = "YOUR_API_KEY_HERE"
+            val apiSecret = "YOUR_SECRET_API_KEY_HERE"
 
             val formBody = FormBody.Builder()
                 .add("grant_type", "client_credentials")
@@ -76,7 +76,7 @@ class PetfindingActivity : AppCompatActivity() {
                         override fun onResponse(call: Call, response: Response) {
                             val responseBody = response.body?.string()
                             val jsonObject = responseBody?.let { JSONObject(it) }
-                            Log.d("Mission Complete", "You got the pet data bro :) here: $jsonObject")
+                            Log.d("Mission Complete", "You got the pet data  :) here: $jsonObject")
 
                             //for loop to interate through the pet JSON array inreder to get the specifc pieces of data for the Pet data class
 
