@@ -114,4 +114,4 @@ VIDEO created with Loom
 
 ## Notes
 
-App Came a long way. Will add a chatting feature for the final submisssion
+Finished the Chatting Activty. Will Coontinue to update the App in the future
